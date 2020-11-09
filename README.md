@@ -21,15 +21,15 @@
 
 <ul id="maintab" class="basictab">
 <li><a href="index.html">HOMEPAGE</a></li>
-<li rel="Week 1"><a href="#">week1 &#9660;</a></li>
-<li rel="Week 2"><a href="#">week2 &#9660;</a></li>
-<li rel="Week 3"><a href="#">week3 &#9660;</a></li>
-<li rel="Week 4"><a href="#">week4 &#9660;</a></li>
-<li rel="Week 5"><a href="#">week5 &#9660;</a></li>
-<li rel="Week 7"><a href="#">week7 &#9660;</a></li>
-<li rel="Week 8"><a href="#">week8 &#9660;</a></li>
-<li rel="Week 9"><a href="#">week9 &#9660;</a></li>
-<li rel="Week 10"><a href="#">week10 &#9660;</a></li>
+<li rel="week1"><a href="#">week 1 &#9660;</a></li>
+<li rel="Labs/week2/week2.html"><a href="#">week 2 &#9660;</a></li>
+<li rel="week3"><a href="#">week 3 &#9660;</a></li>
+<li rel="week4"><a href="#">week 4 &#9660;</a></li>
+<li rel="week5"><a href="#">week 5 &#9660;</a></li>
+<li rel="week7"><a href="#">week 7 &#9660;</a></li>
+<li rel="week8"><a href="#">week 8 &#9660;</a></li>
+<li rel="week9"><a href="#">week 9 &#9660;</a></li>
+<li rel="week10"><a href="#">week 10 &#9660;</a></li>
 </ul>
 
 <h1>Basics of Music Data
