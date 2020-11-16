@@ -25,9 +25,35 @@
 <p>To download my MusicXML file of Chura Liya Hai click <a href="Chura Liya Hai.musicxml">here</a></p>
 
 <h2>Task 1.2 - Exporting my MuseScore file to MEI</h2>
-<p>To download my MEI file of Chura Liya Hai click <a href="Chura Liya Hai.mei>here</a></p>
+<p>To download my MEI file of Chura Liya Hai click <a href="Chura Liya Hai.mei">here</a></p>
 
 <h2>Task 2 - Rendering my MEI file using Verovio in Github</h2>
-
+	
+<div class="header">My Verovio file</div>
+    <div id="app">Verovio is loading...</div>
+    <script type="module">
+        import 'https://www.verovio.org/javascript/app/verovio-app.js';
+        
+        const options = {
+            defaultView: 'responsive', // default is 'responsive', alternative is 'document'
+            defaultZoom: 3, // 0-7, default is 4
+            enableResponsive: true, // default is true
+            enableDocument: true // default is true
+        }
+        
+        // A MusicXML file
+        var file = 'data/Chura Liya Hai.mei';
+        // A MEI file
+        //var file = 'https://www.verovio.org/editor/brahms.mei';
+        
+        const app = new Verovio.App(document.getElementById("app"), options);
+        fetch(file)
+            .then(function(response) {
+                return response.text();
+            })
+            .then(function(text) {
+                app.loadData(text);
+            });
+    </script>
   </body>
   </html>
