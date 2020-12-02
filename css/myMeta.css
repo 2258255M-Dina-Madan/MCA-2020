@@ -1,24 +1,26 @@
-mei-titlestmt > mei-title {
+<ul>
+<li> mei-titlestmt > mei-title {
 	font-size: 25px;
 	font-family: Arial;
 	display: block;
     }
    
-mei-titlestmt > mei-composer::before {
+ <li> mei-titlestmt > mei-composer::before {
   font-weight: bold;
   content: "Composer: ";
   white-space: pre;
     }
 
-mei-titlestmt > mei-respstmt > mei-resp {
+<li> mei-titlestmt > mei-respstmt > mei-resp {
 	font-size: 25px;
 	font-family: Arial;
     }
 	  
-mei-editionstmt > mei-title {
+<li> mei-editionstmt > mei-title {
 	font-size: 25px;
 	font-family: Arial;
 	  }
+</ul>
 	 
 mei-editionstmt > mei-arranger {
 	font-size: 25px;
