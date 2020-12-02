@@ -1,7 +1,9 @@
  mei-titlestmt > mei-title {
-	font-weight: bold;
-  content: "Title: ";
-  white-space: pre;
+font-size: 25px;
+font-family: Arial;
+ font-weight: bold;
+ content: "Title: ";
+ white-space: pre;
     }
    
  mei-titlestmt > mei-composer::before {
