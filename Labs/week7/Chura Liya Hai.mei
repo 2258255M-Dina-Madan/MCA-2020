@@ -1,28 +1,34 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title auth.uri="http://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FYaadon_Ki_Baaraat&sid=134909" auth="dbpedia.org">Chura Liya Hai</title>
-            <composer auth.uri="http://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FR._D._Burman&sid=134909" auth="dbpedia.org">R.D Burman</composer>
+            <title auth.uri="http://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FYaadon_Ki_Baaraat&sid=134909" auth="dbpedia.org" xml:id="title">Chura Liya Hai</title>
+            <composer auth.uri="http://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FR._D._Burman&sid=134909" auth="dbpedia.org" xml:id="composer">R.D Burman</composer>
             <respStmt>
+             <resp>Sung by</resp>
+             <resp auth.uri="http://dbpedia.org/page/Asha_Bhosle" auth="dbpedia.org" xml:id="singer">Asha Bhosle</resp>
             <resp>Encoded by</resp>
             <resp>Dina Madan</resp>
             </respStmt>
          </titleStmt>
          <editionStmt>
+         <title auth.uri="https://www.youtube.com/watch?v=u1kmXh8IFiA" auth="YouTube" xml:id="source1">"Chura Liya Hai" Sheet Music</title>
+         <arranger auth.uri="https://www.youtube.com/channel/UC88xLZCCJdPg_pXp5D8AgiQ" auth="YouTube" xml:id="source2">"Indian Sheet Music & Guitar Tabs</arranger>  
          <edition>Second draft</edition>
-         <date>05/10/20</date>
+         <date>02/12/20</date>
          <respStmt>
          <resp>Revised by</resp>
          <resp>Dina Madan</resp>
          </respStmt>
          </editionStmt>
          <extent unit="bytes">278.043</extent>
-         <pubStmt>
-         <availability />
+         <pubStmt> 
+         <availability>   
+         <useRestrict auth.uri="https://creativecommons.org/licenses/by/4.0/" auth="Creative Commons">Creative Commons Attribution 4.0 International, CC BY 4.0</useRestrict>
+         </availability>
         <publisher>
         <corpName>University of Glasgow Information Studies</corpName>
         </publisher>
@@ -45,6 +51,11 @@
          </appInfo>
          <projectDesc>Music Curation & Analytics 2020 - Dataset Project</projectDesc>
       </encodingDesc>
+      <workList>
+      <classification>  
+      <genre>Classical Indian</genre>
+      </classification>
+      </workList>
    </meiHead>
    <music>
       <body>
