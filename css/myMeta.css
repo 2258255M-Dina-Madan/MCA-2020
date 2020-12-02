@@ -1,11 +1,13 @@
 mei-titlestmt > mei-title {
 	font-size: 25px;
 	font-family: Arial;
+	display: block;
     }
    
 mei-titlestmt > mei-composer {
 	font-size: 25px;
 	font-family: Arial;
+	display block;
     }
 
 mei-titlestmt > mei-respstmt > mei-resp {
