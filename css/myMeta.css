@@ -4,10 +4,10 @@ mei-titlestmt > mei-title {
 	display: block;
     }
    
-mei-titlestmt > mei-composer {
-	font-size: 25px;
-	font-family: Arial;
-	display block;
+mei-titlestmt > mei-composer::before {
+  font-weight: bold;
+  content: "Composer: ";
+  white-space: pre;
     }
 
 mei-titlestmt > mei-respstmt > mei-resp {
