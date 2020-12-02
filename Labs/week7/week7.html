@@ -51,7 +51,7 @@ into the edition statement. I also provided more information on the artistc cont
 Furthermore, I included licensing data into the availability and useRestrict elements so I could provide an authority attribute. I chose the Creative Commons Attribution 4.0 International which allows my work to be freely shared and adapted even for commerical use. 
 Lastly, I added in genre, which is classical Indian, using the classification tag.</p>
 	    
-<h2>Task 2 - Rendering my Revised MEI Metadata along with my Score</h2>
+<h2>Task 2 - Rendering my Revised MEI Metadata along with my Scoree</h2>
 	  
   <div id="MEImeta"></div>
   <div id="app">Verovio is loading...</div>
@@ -64,7 +64,7 @@ Lastly, I added in genre, which is classical Indian, using the classification ta
           enableDocument: true // default is true
       }
       // A MusicXML file
-      var file = 'Chura Liya Hai.mei';
+      var file = 'Labs/week7/Chura Liya Hai.mei';
       // A MEI file
       //var file = 'https://www.verovio.org/editor/brahms.mei';
       const app = new Verovio.App(document.getElementById("app"), options);
@@ -79,7 +79,7 @@ Lastly, I added in genre, which is classical Indian, using the classification ta
   <script>
     // Get, parse, and show TEI data
     var CETEIcean = new CETEI()
-    CETEIcean.getHTML5("Chura Liya Hai.mei", function(data) {
+    CETEIcean.getHTML5("Labs/week7/Chura Liya Hai.mei", function(data) {
       document.getElementById("TEI").appendChild(data)
     })
     // Get, parse and show MEI header data
@@ -89,7 +89,7 @@ Lastly, I added in genre, which is classical Indian, using the classification ta
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5("Chura Liya Hai.mei", function(data) {
+    CETEI4MEI.getHTML5("Labs/week7/Chura Liya Hai.mei", function(data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
@@ -103,7 +103,7 @@ Lastly, I added in genre, which is classical Indian, using the classification ta
         scale: 50,
         adjustPageHeight: true
     })
-    fetch("Chura Liya Hai.mei").then(function( response ) {
+    fetch("Labs/week7/Chura Liya Hai.mei").then(function( response ) {
         response.text().then(function( data ) {
           var svg = vrvToolkit.renderData(data, {})
           document.getElementById('MEI').innerHTML = svg
@@ -112,5 +112,4 @@ Lastly, I added in genre, which is classical Indian, using the classification ta
   </script>
 </body>
 <footer><p>Score rendering provided by <a href="http://www.verovio.org">Verovio</a>. Metadata rendered by <a href="https://github.com/TEIC/CETEIcean/"> CETEIcean</a>.</p></footer>
-
 </html>
