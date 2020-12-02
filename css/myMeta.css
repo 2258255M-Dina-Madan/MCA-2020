@@ -1,1 +1,64 @@
+mei-titlestmt > mei-title {
+	font-size: 25px;
+	font-family: Arial;
+    }
+   
+mei-titlestmt > mei-composer {
+	font-size: 25px;
+	font-family: Arial;
+    }
 
+mei-titlestmt > mei-respstmt > mei-resp {
+	font-size: 25px;
+	font-family: Arial;
+    }
+	  
+mei-editionstmt > mei-title {
+	font-size: 25px;
+	font-family: Arial;
+	  }
+	 
+mei-editionstmt > mei-arranger {
+	font-size: 25px;
+	font-family: Arial;
+	  }
+
+mei-editionstmt > mei-edition {
+	font-size: 25px;
+	font-family: Arial;
+	  }
+	  
+mei-editionstmt > mei-date {
+	font-size: 25px;
+	font-family: Arial;
+	  }
+
+mei-editionstmt > mei-respstmt > mei-resp {
+	font-size: 25px;
+	font-family: Arial;
+	  }
+
+mei-pubstmt > mei-availability > mei-userestrict {
+	font-size: 25px;
+	font-family: Arial;
+	  }
+
+mei-pubstmt > mei-publisher > mei-corpname {
+	font-size: 25px;
+	font-family: Arial;
+	  }
+	  
+mei-pubstmt > mei-address > mei-addrline > mei-geogname {
+	font-size: 25px;
+	font-family: Arial;
+	  }
+
+mei-encodingdesc > projectdesc {
+  font-size: 25px;
+	font-family: Arial;
+	  }
+	  
+mei-worklist > mei-classification > mei-genre {
+	font-size: 25px;
+	font-family: Arial;
+	  }
