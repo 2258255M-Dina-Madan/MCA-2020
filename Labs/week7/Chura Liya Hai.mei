@@ -5,8 +5,8 @@
     <meiHead>
       <fileDesc>
          <titleStmt>
-            <title auth.uri="http://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FYaadon_Ki_Baaraat&sid=134909" auth="dbpedia.org" xml:id="title">Chura Liya Hai</title>
-            <composer auth.uri="http://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FR._D._Burman&sid=134909" auth="dbpedia.org" xml:id="composer">R.D Burman</composer>
+            <title auth.uri="http://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FYaadon_Ki_Baaraat&amp;sid=134909" auth="dbpedia.org" xml:id="title">Chura Liya Hai</title>
+            <composer auth.uri="http://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FR._D._Burman&amp;sid=134909" auth="dbpedia.org" xml:id="composer">R.D Burman</composer>
             <respStmt>
              <resp>Sung by</resp>
              <resp auth.uri="http://dbpedia.org/page/Asha_Bhosle" auth="dbpedia.org" xml:id="singer">Asha Bhosle</resp>
@@ -15,8 +15,8 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-         <title auth.uri="https://www.youtube.com/watch?v=u1kmXh8IFiA" auth="YouTube" xml:id="source1">"Chura Liya Hai" Sheet Music</title>
-         <arranger auth.uri="https://www.youtube.com/channel/UC88xLZCCJdPg_pXp5D8AgiQ" auth="YouTube" xml:id="source2">"Indian Sheet Music & Guitar Tabs</arranger>  
+         <title auth.uri="https://www.youtube.com/watch?v=u1kmXh8IFiA" auth="YouTube" xml:id="source1">Chura Liya Hai Sheet Music</title>
+         <arranger auth.uri="https://www.youtube.com/channel/UC88xLZCCJdPg_pXp5D8AgiQ" auth="YouTube" xml:id="source2">"Indian Sheet Music and Guitar Tabs</arranger>  
          <edition>Second draft</edition>
          <date>02/12/20</date>
          <respStmt>
@@ -49,7 +49,7 @@
                <p xml:id="p-0000000435115524">Transcoded from MusicXML</p>
             </application>
          </appInfo>
-         <projectDesc>Music Curation & Analytics 2020 - Dataset Project</projectDesc>
+         <projectDesc>Music Curation and Analytics 2020 - Dataset Project</projectDesc>
       </encodingDesc>
       <workList>
       <classification>  
