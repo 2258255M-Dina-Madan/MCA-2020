@@ -1,19 +1,19 @@
-<ul>
-<li> mei-titlestmt > mei-title {
-	font-size: 25px;
-	font-family: Arial;
-	display: block;
+ mei-titlestmt > mei-title {
+	font-weight: bold;
+  content: "Title: ";
+  white-space: pre;
     }
    
- <li> mei-titlestmt > mei-composer::before {
+ mei-titlestmt > mei-composer::before {
   font-weight: bold;
   content: "Composer: ";
   white-space: pre;
     }
 
-<li> mei-titlestmt > mei-respstmt > mei-resp {
-	font-size: 25px;
-	font-family: Arial;
+ mei-titlestmt > mei-respstmt > mei-resp {
+	font-weight: bold;
+  content: "Sung by: ";
+  white-space: pre;
     }
 	  
 <li> mei-editionstmt > mei-title {
