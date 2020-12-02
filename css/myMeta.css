@@ -1,70 +1,128 @@
- mei-titlestmt > mei-title {
+<ul>
+<li>
+mei-titlestmt > mei-title {
 font-size: 25px;
-font-family: Arial;
  font-weight: bold;
  content: "Title: ";
  white-space: pre;
     }
-   
+ </li>
+</ul>
+
+<ul>
+<li>
  mei-titlestmt > mei-composer::before {
+  font-size: 20px;
   font-weight: bold;
   content: "Composer: ";
   white-space: pre;
     }
-
+</li>
+<li>
  mei-titlestmt > mei-respstmt > mei-resp {
-	font-weight: bold;
-  content: "Sung by: ";
-  white-space: pre;
+font-size: 20px;
+font-weight: bold;
+ content: "Sung by: ";
+ white-space: pre;
     }
-	  
-<li> mei-editionstmt > mei-title {
-	font-size: 25px;
-	font-family: Arial;
-	  }
+</li>
+<li>
+ mei-titlestmt > mei-respstmt > mei-resp {
+font-size: 20px;
+font-weight: bold;
+ content: "Encoded by: ";
+ white-space: pre;
+    }
+</li>
 </ul>
-	 
+
+<ul>
+<li> mei-editionstmt > mei-title {
+font-size: 20px;
+font-weight: bold;
+content: "Title: ";
+ white-space: pre;
+	  }
+</li>
+<li>
 mei-editionstmt > mei-arranger {
-	font-size: 25px;
-	font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+content: "Arranger: ";
+ white-space: pre;
 	  }
-
+</li>
+<li>
 mei-editionstmt > mei-edition {
-	font-size: 25px;
-	font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+content: "Edition: ";
+ white-space: pre;
 	  }
-	  
+</li>
+</li>	  
 mei-editionstmt > mei-date {
-	font-size: 25px;
-	font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+content: "Date: ";
+ white-space: pre;
 	  }
-
+</li>
+<li>
 mei-editionstmt > mei-respstmt > mei-resp {
-	font-size: 25px;
-	font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+content: "Revised by: ";
+ white-space: pre;
 	  }
+</li>
+</ul>
 
+<ul>
+<li>
 mei-pubstmt > mei-availability > mei-userestrict {
-	font-size: 25px;
-	font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+ white-space: pre;
 	  }
-
+</li>
+<li>
 mei-pubstmt > mei-publisher > mei-corpname {
-	font-size: 25px;
-	font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+content: "CorpName: ";
+ white-space: pre;
 	  }
-	  
+</li>
+<li>
 mei-pubstmt > mei-address > mei-addrline > mei-geogname {
-	font-size: 25px;
-	font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+content: "GeoName: ";
+ white-space: pre;
 	  }
+</li>
+</ul>
 
+<ul>
+<li>
 mei-encodingdesc > projectdesc {
-  font-size: 25px;
-	font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+content: "ProjectDesc: ";
+ white-space: pre;
 	  }
-	  
+</li>
+</ul>
+
+<ul>
+<li>
 mei-worklist > mei-classification > mei-genre {
-	font-size: 25px;
-	font-family: Arial;
-	  }
+font-size: 20px;
+font-weight: bold;
+content: "Genre: ";
+ white-space: pre;
+		}
+</li>
+</ul>
+	
