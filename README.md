@@ -26,5 +26,5 @@ There are many different sources that have curated acoustic, notated & descripti
   <h3>Descriptive Data</h3>
   Both examples above present descriptive data on Asha Bhosle's music. The Internet Archive presented information such as tracklist, time duration and date of
   publication. This data is useful because it is presenting information on both the music and the source the user is retrieving it from. Next, Musescore analyses
-  the data about the music score. It describes the duration, bar and time signature. This descriptive data is key for transcribing music.<p>
+  the data about the music score. It describes the duration, bar and time signature. This descriptive data is key for transcribing music.
   
